@@ -1,0 +1,132 @@
+*{
+	text-decoration: none;
+	color: #000000;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from( blue), to( deepskyblue));
+
+}
+ .icon{
+ 	width: 30px;
+ 	height: 30px;
+ 	float: left;
+ 	line-height: 55px;
+ 	margin-left: 10px;
+ }
+ 
+ .text{
+ 	width: 100%;
+ 	text-align: center;
+ 	line-height: 50px;
+ }
+
+.icon2{
+	position: absolute;
+	right:2%;
+	top: 4%;
+	width: 30px;
+	height: 30px;
+	background: url(img/header-nav.png);
+	background-position: 0 0;
+}
+
+.biao{
+	width: 95%;
+	height: 100px;
+	margin: auto;
+	
+	background-color: ;
+	border: solid 1px black;
+	margin-top: 15px;
+}
+
+.biao1{
+	height: 50px;
+	width: 100%;
+	border-bottom: solid 1px black;
+}
+
+.biao2{
+		height: 50px;
+	width: 100%;
+}
+
+
+.denglu{
+		width: 95%;
+	height: 50px;
+	margin: auto;
+	display: block;
+	background:-webkit-gradient(linear,0% 0%,0% 100%,from(red),to(orangered));
+	margin-top: 10px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#wenzi{
+			width: 90%;
+	height: 50px;
+	margin: auto;
+	margin-top: 10px;
+	line-height: 50px;
+}
+
+.wenzi1{
+	float: lleft;
+	}
+
+.wenzi2{
+	float: right;
+}
+
+.dibu{
+	background: -webkit-gradient(linear,0%0%,0%100%,from(deepskyblue),to( dodgerblue));
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom:0.1px;
+	
+	
+}
+ 
+.dibu p{
+	font-size: 5px;
+}
+#name{
+	float: left;
+	margin-top: 15px;
+	border: none;
+	outline: medium;
+}
+
+#pass{
+	float: left;
+	margin-top: 15px;
+	border: none;
+	outline: medium;
+}
+.biao2 img{
+	float: left;
+	margin-top: 9px;
+}
+.biao1 img {
+	float: left;
+	margin-top: 9px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #909;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #909;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
